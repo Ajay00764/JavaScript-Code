@@ -1,0 +1,19 @@
+Variables yes
+Loops yes
+Conditional yes
+function yes
+arrow function yes
+array yes
+object yes
+dom  yes
+
+Advance
+
+hoisting no
+scoping no
+this no
+closers no 
+map reduce filter yes
+callback function yes
+promises yes
+asynk and await yes
