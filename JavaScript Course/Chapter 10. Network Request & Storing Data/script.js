@@ -91,29 +91,29 @@
 
 // Fetch API 
 
-let promise = fetch('https://kontests.net/api/v1/all')
+// let promise = fetch('https://kontests.net/api/v1/all')
 
-promise.then((response) => {
-    console.log(response.ok)
-    console.log(response.status)
-    return response.json();
-}).then((response) => {
-    let body = document.body;
-    for (item in response) {
-        body.innerHTML = body.innerHTML + `<ul class="container">
-        <li>
-            <img src="/programming.png" height="200px" width="350px" style="border:2px solid white">
-        </li>
-        <li>
-            Name : ${response[item].name}]}
-        </li>
-        <li>
-            Start Time : ${response[item].start_time}
-            </li>
-        <li>
-            End Time : ${response[item].end_time}}
-        </li>
-            <button><a href="${response[item].url}">Visit Site</a></button>
-    </ul>`
-    }
-})
+// promise.then((response) => {
+//     console.log(response.ok)
+//     console.log(response.status)
+//     return response.json();
+// }).then((response) => {
+//     let body = document.body;
+//     for (item in response) {
+//         body.innerHTML = body.innerHTML + `<ul class="container">
+//         <li>
+//             <img src="/programming.png" height="200px" width="350px" style="border:2px solid white">
+//         </li>
+//         <li>
+//             Name : ${response[item].name}]}
+//         </li>
+//         <li>
+//             Start Time : ${response[item].start_time}
+//             </li>
+//         <li>
+//             End Time : ${response[item].end_time}}
+//         </li>
+//             <button><a href="${response[item].url}">Visit Site</a></button>
+//     </ul>`
+//     }
+// })
